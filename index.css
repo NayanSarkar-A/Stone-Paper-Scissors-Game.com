@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+.game-heading{
+    height: 12vh;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 12vh;
+    background-color:#081b31 ;
+    color: white;
+}
+.game-box-contaner{
+    height: 40vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.choice-div{
+    height: 8rem;
+    width: 8rem;
+    padding: 3px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+}
+.choice-div{
+    background-size: cover;
+    /* object-fit: cover; */
+    background-position: 50%;
+}
+.choice-div:hover{
+    cursor: pointer;
+    background-color: #081b31;
+    border: 0.5px solid #081b31f8;
+}
+.score-board{
+    /* height: 20vh; */
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 2rem;
+}
+.score{
+    height: 19vh;
+    width: 20vw;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.compp{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#user-score, #comp-score{
+    font-size: 3rem;
+}
+#comp-score{
+    color: red;
+}
+#user-score{
+    color: green;
+}
+#drow-score{
+    color: #081b31;
+}
+
+.msg-contaner{
+    height: 20vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msg{
+    font-size: 2rem;
+    background-color: #081b31;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: inline;
+    text-align: center;
+}

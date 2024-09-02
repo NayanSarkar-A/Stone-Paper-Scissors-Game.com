@@ -73,6 +73,9 @@
 #drow-score{
     color: #081b31;
 }
+.space{
+    margin-right: 1rem;
+}
 
 .msg-contaner{
     height: 20vh;
@@ -89,4 +92,52 @@
     border-radius: 1rem;
     display: inline;
     text-align: center;
+}
+@media (min-width:100px ) and (max-width:500px) {
+    .compp{
+        font-size: 0.7rem;
+    }
+    #user-score,#drow-score,#comp-score{
+        font-size: 1.3rem;
+    }
+    .score-board{
+        /* height: 20vh; */
+        border: 1px solid black;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* gap: 5rem; */
+        /* font-size: 2rem; */
+        /* margin-left:1rem ; */
+        /* margin-right: 1rem; */
+    }
+    .choice-div{
+        height: 5.5rem;
+        width: 5.5rem;
+        padding: 2px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        background-size: cover;
+        /* object-fit: cover; */
+        background-position: 50%;
+    }
+    .choice-div:hover{
+        cursor: pointer;
+        background-color: #081b31;
+        border: 0.5px solid #081b31f8;
+    }
+    #msg{
+        font-size: 1.25rem;
+    }
+    .game-box-contaner{
+        height: 40vh;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        margin: 0rem 1rem 0rem 1rem;
+    }
 }

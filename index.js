@@ -42,51 +42,6 @@ const playGame =(userVal)=>{
     console.log(`User choice is : ${userVal}`);
     const comChoice=genaretCompChoice();
     console.log(`Computer choice is  : ${comChoice}`);
-    // ......................................................................................................................
-    // if (userVal===comChoice){
-    //     console.log("This game is drow .. play again ");
-    // }
-    // else{
-    //     const userWin=true;
-        
-    //     // when user press 'rack' ;
-    //     if (userVal==="rock"){
-    //         // scissors ,paper
-    //         if(comChoice==="scissors"){
-    //             console.log("User is win");
-    //             userCo++;
-    //             userScore.innerText=userCo;
-    //         }
-    //         else{
-    //             console.log(`computer us win..`);
-    //         }
-    //     }
-    //     // when user press "scissors";
-    //     if(userVal==="scissors"){
-    //         // rock , paper ..
-    //         if(comChoice==="rock"){
-    //             console.log("computer is win..");
-    //         }
-    //         else{
-    //             console.log("user is win");
-    //             userCo++;
-    //             userScore.innerText=userCo;
-    //         }
-    //     }
-    //     // when user press "paper";
-    //     if (userVal==="paper"){
-    //         // rack , scissors
-    //         if (comChoice==="rock"){
-    //             console.log("User is win");
-    //             userCo++;
-    //             userScore.innerText=userCo;
-    //         }
-    //         else{
-    //             console.log("Computer is win")
-    //         }
-    //     }
-    //     // ..........................................................................................................................
-    // }
     if (userVal === comChoice){
         drowGame();
     } else{
